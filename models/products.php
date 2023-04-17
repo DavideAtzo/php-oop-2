@@ -10,5 +10,4 @@ class Prodotto
         $this->prezzo = $_prezzo;
     }
 }
-
 ?>
