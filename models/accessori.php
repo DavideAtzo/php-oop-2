@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . 'products.php';
+require_once __DIR__ . '/products.php';
 class Accessorio extends Prodotto
 {
     public $materiale;
@@ -12,5 +12,4 @@ class Accessorio extends Prodotto
     }
 
 }
-
 ?>

@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . 'products.php';
+require_once __DIR__ . '/products.php';
 class Cibo extends Prodotto
 {
     public $peso_netto;
