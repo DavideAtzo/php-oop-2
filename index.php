@@ -30,11 +30,17 @@ var_dump($prodotti);
 </head>
 
 <body>
-    <?php foreach ($prodotti as $prodotto) { ?>
-        <?php foreach ($prodotto as $key => $prodotto) : ?>
-            <p><?php echo $prodotto ?></p>
-        <?php endforeach; ?><hr>
-    <?php } ?>
+    <div class="container">
+        <div class="row">
+            <?php foreach ($prodotti as $prodotto) : ?>
+                <div class="card">
+                    <?php foreach ($prodotto as $key => $prodotto) : ?>
+                        <p><?php echo $prodotto ?></p>
+                    <?php endforeach; ?>
+                </div>
+            <?php endforeach; ?>
+        </div>
+    </div>
 </body>
 
 </html>
