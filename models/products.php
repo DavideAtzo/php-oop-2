@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/Categories.php';
+require_once __DIR__ . '/categories.php';
 class Prodotto
 {
     public $nome_prodotto;
