@@ -1,11 +1,12 @@
 <?php
 
 include_once __DIR__ . '/models/accessori.php';
+include_once __DIR__ . '/models/categories.php';
 include_once __DIR__ . '/models/prodotto.php';
 include_once __DIR__ . '/models/cibo.php';
 include_once __DIR__ . '/models/giocattoli.php';
 
-$prodotti =  new Cibo('Sacchetto di crocchette', 4.99, 545, 'prosciutto, carote');
+$prodotti =  new Cibo('Sacchetto di crocchette', 4.99, 'cane', 545, 'prosciutto, carote');
 
 var_dump($prodotti);
 
