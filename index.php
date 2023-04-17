@@ -2,13 +2,21 @@
 
 include_once __DIR__ . '/models/accessori.php';
 include_once __DIR__ . '/models/categories.php';
-include_once __DIR__ . '/models/prodotto.php';
+include_once __DIR__ . '/models/products.php';
 include_once __DIR__ . '/models/cibo.php';
-include_once __DIR__ . '/models/giocattoli.php';
+include_once __DIR__ . '/models/giochi.php';
 
-$prodotti =  new Cibo('Sacchetto di crocchette', 4.99, 'cane', 545, 'prosciutto, carote');
+$crocchette =  new Cibo('Sacchetto di crocchette', 4.99, 'Cane', 545, 'prosciutto, carote');
+$tonno =  new Cibo('Scatoletta di tonno', 3.49, 'gatto', 300, 'tonno, olio');
+$collare =  new Accessorio('Collare in pelle', 4.99, 'Cane', 'Pelle', 20);
+$voliera =  new Accessorio('Voliera per papagalli', 99.99, 'Uccelli', 'Metallo', 120);
+$osso =  new Gioco('Osso giocattolo', 4.99, 'Cane', 'Giocattolo in gomma resistente ai morsi (non tossico', 50);
 
-var_dump($prodotti);
+var_dump($crocchette);
+var_dump($tonno);
+var_dump($collare);
+var_dump($voliera);
+var_dump($osso);
 
 ?>
 
